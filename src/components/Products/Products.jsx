@@ -4,19 +4,20 @@ import Product from './Product/Product';
 import shoes from '../../Assets/shoes.jpg';
 import laptop from '../../Assets/laptop.jfif';
 import '../CustomCss/App.css';
+// import useStyles from './Styles';
 
 const products = [
+    { id: 1, name: "shoes", description: "Running shoes", price: "2$",img: shoes },
     { id: 1, name: "shoes", description: "Running shoes", price: "10$",img: shoes },
-    { id: 1, name: "shoes", description: "Running shoes", price: "10$",img: shoes },
-    { id: 1, name: "shoes", description: "Running shoes", price: "10$",img: shoes },
-    { id: 1, name: "shoes", description: "Running shoes", price: "10$",img: shoes },
+    { id: 1, name: "shoes", description: "Running shoes", price: "4500$",img: shoes },
+    { id: 1, name: "shoes", description: "Running shoes", price: "100$",img: shoes },
     { id: 2, name: "Laptop", description: "Cute Laptop", price: "50$",img: laptop },
     { id: 2, name: "Laptop", description: "Cute Laptop", price: "50$",img: laptop },
     { id: 2, name: "Laptop", description: "Cute Laptop", price: "50$",img: laptop },
     { id: 2, name: "Laptop", description: "Cute Laptop", price: "50$",img: laptop },
 ]
 
-// import useStyles from './Styles';
+
 
 const Products = ({ product }) => {
     // const classes = useStyles();
